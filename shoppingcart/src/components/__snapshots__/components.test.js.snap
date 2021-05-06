@@ -1,0 +1,588 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Snapshot renders Product with description  1`] = `
+<div
+  className="display"
+>
+  <form
+    className=""
+    horizantal="true"
+    id="BuyForm"
+    onSubmit={[Function]}
+  >
+    <h3>
+      Born On The Streets
+    </h3>
+    <div>
+       
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <div>
+          <label
+            className="col-sm-4 col-xs-4 control-label"
+          >
+            Description: 
+          </label>
+          14/15 s/n� - Jogador
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <div>
+          <label
+            className="col-sm-4 col-xs-4 control-label"
+          >
+            Style: 
+          </label>
+          Branco com listras pretas
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-4 col-xs-4 control-label"
+        >
+          No. of installments: 
+        </label>
+        12
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-4 col-xs-4 control-label"
+        >
+          Quantity: 
+        </label>
+        <div
+          className="col-sm-4 col-xs-4"
+        >
+          <input
+            className="form-control"
+            defaultValue={1}
+            id="quantity"
+            min={1}
+            name="quantity"
+            type="number"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-4 col-xs-4 control-label"
+        >
+          Size: 
+        </label>
+        <div
+          className="col-sm-4 col-xs-4"
+        >
+          <select
+            className="form-control"
+            id="size"
+            name="size"
+            placeholder="select the size"
+            value=""
+          >
+            <option
+              value="XL"
+            >
+              XL
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-4 col-xs-4"
+        >
+          <button
+            className="btn btn-default"
+            disabled={false}
+            name="price"
+            type="submit"
+            value={25.9}
+          >
+            Buy For 
+            $
+            25.9
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-8 col-xs-8 control-label"
+        >
+          Shipping Charges $1 
+        </label>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Component Snapshot renders Product without description  1`] = `
+<div
+  className="display"
+>
+  <form
+    className=""
+    horizantal="true"
+    id="BuyForm"
+    onSubmit={[Function]}
+  >
+    <h3>
+      Crazy Monkey Grey
+    </h3>
+    <div>
+       
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <div>
+           
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <div>
+           
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-4 col-xs-4 control-label"
+        >
+          No. of installments: 
+        </label>
+        5
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-4 col-xs-4 control-label"
+        >
+          Quantity: 
+        </label>
+        <div
+          className="col-sm-4 col-xs-4"
+        >
+          <input
+            className="form-control"
+            defaultValue={1}
+            id="quantity"
+            min={1}
+            name="quantity"
+            type="number"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-4 col-xs-4 control-label"
+        >
+          Size: 
+        </label>
+        <div
+          className="col-sm-4 col-xs-4"
+        >
+          <select
+            className="form-control"
+            id="size"
+            name="size"
+            placeholder="select the size"
+            value=""
+          >
+            <option
+              value="L"
+            >
+              L
+            </option>
+            <option
+              value="XL"
+            >
+              XL
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-4 col-xs-4"
+        >
+          <button
+            className="btn btn-default"
+            disabled={false}
+            name="price"
+            type="submit"
+            value={134.9}
+          >
+            Buy For 
+            $
+            134.9
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-8 col-xs-8 control-label"
+          style={
+            Object {
+              "color": "blue",
+            }
+          }
+        >
+          ✔Free Shipping Available 
+        </label>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Component Snapshot renders Selected Product with description 1`] = `
+<div
+  className="display-cart"
+>
+  <form
+    className=""
+    horizantal="true"
+    id="RemoveForm"
+    onSubmit={[Function]}
+  >
+    <h3>
+      Born On The Streets
+    </h3>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <div>
+          <label
+            className="col-sm-8 col-xs-8 control-label"
+          >
+            Description: 
+          </label>
+          14/15 s/n� - Jogador
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <div>
+          <label
+            className="col-sm-8 col-xs-8 control-label"
+          >
+            Style: 
+          </label>
+          Branco com listras pretas
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-8 col-xs-8 control-label"
+        >
+          Selected Size : 
+        </label>
+        XL
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-8 col-xs-8 control-label"
+        >
+          Quantity : 
+        </label>
+        1
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-8 col-xs-8 control-label"
+        >
+          Price : 
+        </label>
+        $
+        25.9
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-8 col-xs-8 control-label"
+        >
+          No. of installments: 
+        </label>
+        12
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-12 col-xs-12 control-label"
+        >
+          Shipping Charges: $1 
+        </label>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-4 col-xs-4"
+        >
+          <button
+            className="btn btn-default"
+            disabled={false}
+            name="Remove"
+            type="submit"
+          >
+            Remove
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Component Snapshot renders Selected Product without description  1`] = `
+<div
+  className="display-cart"
+>
+  <form
+    className=""
+    horizantal="true"
+    id="RemoveForm"
+    onSubmit={[Function]}
+  >
+    <h3>
+      Crazy Monkey Grey
+    </h3>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <div>
+           
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <div>
+           
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-8 col-xs-8 control-label"
+        >
+          Selected Size : 
+        </label>
+        L
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-8 col-xs-8 control-label"
+        >
+          Quantity : 
+        </label>
+        1
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-8 col-xs-8 control-label"
+        >
+          Price : 
+        </label>
+        $
+        134.9
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-8 col-xs-8 control-label"
+        >
+          No. of installments: 
+        </label>
+        5
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <label
+          className="col-sm-12 col-xs-12 control-label"
+          style={
+            Object {
+              "color": "blue",
+            }
+          }
+        >
+          ✔Free Shipping Available 
+        </label>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-4 col-xs-4"
+        >
+          <button
+            className="btn btn-default"
+            disabled={false}
+            name="Remove"
+            type="submit"
+          >
+            Remove
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
